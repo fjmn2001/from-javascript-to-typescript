@@ -71,7 +71,7 @@ window.addEventListener("DOMContentLoaded", () => {
   if (document.getElementById("user_form")) {
     CodelyBackoffice.initUserForm();
   }
-  if (document.querySelector("form")) {
-    CodelyBackoffice.initForms();
-  }
+  // if (document.querySelector("form")) {
+  //   CodelyBackoffice.initForms();
+  // }
 });
